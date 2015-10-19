@@ -1,0 +1,1 @@
+return redis.call('geoadd', KEYS[1], ARGV[1], ARGV[2], KEYS[2])
